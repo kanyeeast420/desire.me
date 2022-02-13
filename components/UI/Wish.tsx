@@ -1,6 +1,5 @@
 import React from "react";
 import Link from "next/link";
-import { Button } from "./Button";
 
 interface Wish {
   _id: string;

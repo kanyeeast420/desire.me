@@ -16,7 +16,7 @@ export const Button: React.FC<Button> = ({
   target,
 }) => {
   return (
-    <div className="mr-1 rounded-md bg-gray-100 bg-opacity-50 backdrop-blur-md hover:bg-slate-200">
+    <div className="mr-1 rounded-md bg-gray-100 bg-opacity-50 backdrop-blur-md hover:bg-slate-200 border">
       <Link href={`${link}`} as={`${link}`}>
         <a target={target}>
           <button

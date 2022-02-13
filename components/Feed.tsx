@@ -19,7 +19,7 @@ export const Feed: React.FC<Feed> = ({}) => {
       .then((res) => res.json())
       .then((res) => setWishes(res));
 
-    setIsLoading(false)
+    setIsLoading(false);
   }, []);
 
   if (isLoading) {
